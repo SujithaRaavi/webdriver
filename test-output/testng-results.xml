@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening the appplication]]>
+    </line>
+    <line>
+      <![CDATA[Pagetitle verified]]>
+    </line>
+    <line>
+      <![CDATA[The page title confirmed for the Register link Register: Mercury Tours Register: Mercury Tours]]>
+    </line>
+    <line>
+      <![CDATA[The page title confirmed for the Support link]]>
+    </line>
+  </reporter-output>
+  <suite name="testngsuiteone" duration-ms="26898" started-at="2017-06-21T12:30:36Z" finished-at="2017-06-21T12:31:02Z">
+    <groups>
+    </groups>
+    <test name="TestngTest2" duration-ms="26898" started-at="2017-06-21T12:30:36Z" finished-at="2017-06-21T12:31:02Z">
+      <class name="testng.TestngExample4">
+        <test-method status="PASS" signature="opennewtouapp()[pri:0, instance:testng.TestngExample4@46d56d67]" name="opennewtouapp" is-config="true" duration-ms="9918" started-at="2017-06-21T18:00:46Z" finished-at="2017-06-21T18:00:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the appplication]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- opennewtouapp -->
+        <test-method status="PASS" signature="verifyhomepagetitle()[pri:0, instance:testng.TestngExample4@46d56d67]" name="verifyhomepagetitle" duration-ms="51" started-at="2017-06-21T18:00:56Z" finished-at="2017-06-21T18:00:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pagetitle verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyhomepagetitle -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testng.TestngExample4@46d56d67]" name="closebrowser" is-config="true" duration-ms="153" started-at="2017-06-21T18:00:56Z" finished-at="2017-06-21T18:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testng.TestngExample4 -->
+      <class name="testng.TestngExample5">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:testng.TestngExample5@14acaea5]" name="launchbrowser" is-config="true" duration-ms="10457" started-at="2017-06-21T18:00:36Z" finished-at="2017-06-21T18:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="verifyhomepageTitle()[pri:0, instance:testng.TestngExample5@14acaea5]" name="verifyhomepageTitle" is-config="true" duration-ms="20" started-at="2017-06-21T18:00:56Z" finished-at="2017-06-21T18:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepageTitle -->
+        <test-method status="PASS" signature="register()[pri:0, instance:testng.TestngExample5@14acaea5]" name="register" duration-ms="1817" started-at="2017-06-21T18:00:56Z" finished-at="2017-06-21T18:00:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The page title confirmed for the Register link Register: Mercury Tours Register: Mercury Tours]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="gobacktohomepage()[pri:0, instance:testng.TestngExample5@14acaea5]" name="gobacktohomepage" is-config="true" duration-ms="1020" started-at="2017-06-21T18:00:58Z" finished-at="2017-06-21T18:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobacktohomepage -->
+        <test-method status="PASS" signature="verifyhomepageTitle()[pri:0, instance:testng.TestngExample5@14acaea5]" name="verifyhomepageTitle" is-config="true" duration-ms="26" started-at="2017-06-21T18:00:59Z" finished-at="2017-06-21T18:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepageTitle -->
+        <test-method status="PASS" signature="support()[pri:1, instance:testng.TestngExample5@14acaea5]" name="support" duration-ms="857" started-at="2017-06-21T18:00:59Z" finished-at="2017-06-21T18:01:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The page title confirmed for the Support link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="gobacktohomepage()[pri:0, instance:testng.TestngExample5@14acaea5]" name="gobacktohomepage" is-config="true" duration-ms="863" started-at="2017-06-21T18:01:00Z" finished-at="2017-06-21T18:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobacktohomepage -->
+        <test-method status="PASS" signature="terminatebrowser()[pri:0, instance:testng.TestngExample5@14acaea5]" name="terminatebrowser" is-config="true" duration-ms="1656" started-at="2017-06-21T18:01:01Z" finished-at="2017-06-21T18:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminatebrowser -->
+      </class> <!-- testng.TestngExample5 -->
+    </test> <!-- TestngTest2 -->
+  </suite> <!-- testngsuiteone -->
+</testng-results>
